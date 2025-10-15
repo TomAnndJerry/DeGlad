@@ -1,0 +1,1 @@
+python ../train.py --dataset COX2 --cga_net_lr 0.001 --emb_dim 200 --epochs 900 --encoder_layers 5 --hidden_dim 64 --env_mean_kl_alpha 10 --env_kl_alpha 1 --core_kl_alpha 4 --extractor_model gin --extractor_layers 5 --extractor_hidden_dim 8 --threshold "0.4, 0.6"

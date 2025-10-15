@@ -1,0 +1,1 @@
+python ../train.py --dataset AIDS --cga_net_lr 0.0001 --epochs 1000 --encoder_layers 5 --hidden_dim 12 --env_mean_kl_alpha 2 --env_kl_alpha 1 --core_kl_alpha 1 --extractor_model mlp --extractor_layers 5 --extractor_hidden_dim 8 --threshold "0.8, 1"

@@ -1,0 +1,1 @@
+python ../train.py --dataset DHFR --cga_net_lr 0.0001 --epochs 950 --encoder_layers 5 --hidden_dim 128 --env_mean_kl_alpha 5 --env_kl_alpha 1 --core_kl_alpha 1 --extractor_model gin --extractor_layers 5 --extractor_hidden_dim 8 --lr_decay_step_size 300 --lr_decay_factor 0.7 --threshold "0.8, 0.9"
